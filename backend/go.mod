@@ -2,11 +2,17 @@ module backend
 
 go 1.21.1
 
-require github.com/go-sql-driver/mysql v1.7.1
+require (
+	github.com/go-sql-driver/mysql v1.7.1
+	github.com/gofiber/fiber/v2 v2.50.0
+	golang.org/x/crypto v0.14.0
+)
 
 require (
+	github.com/MicahParks/keyfunc/v2 v2.0.3 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
-	github.com/gofiber/fiber/v2 v2.50.0 // indirect
+	github.com/gofiber/jwt/v4 v4.0.0 // indirect
+	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
